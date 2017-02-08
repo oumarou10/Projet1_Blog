@@ -44,7 +44,5 @@ if(isset($_SESSION['token']) && isset($_SESSION['token_time']) && isset($_POST['
 	}
 }
 
-
-
 header('location : inscription.php');
 ?>

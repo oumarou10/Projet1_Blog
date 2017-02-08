@@ -1,6 +1,5 @@
 <?php
 
-
 require "connexion_bdd.php";
 
 $auteur = htmlspecialchars($_POST['auteur']);
@@ -21,7 +20,6 @@ if(isset($_POST['envoyer']))
 		$requete->execute();
 	}
 }
-			 
 
 header('Location: index_blog.php');
 ?>
