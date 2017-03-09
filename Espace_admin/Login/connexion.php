@@ -1,6 +1,6 @@
 <?php session_start();
 
-require "../../connexion_bdd.php";
+require "../../Modele/connexion.php";
 
 ?>	
 
@@ -15,7 +15,8 @@ require "../../connexion_bdd.php";
 
 	<div align="right">
 
-		<p><a href="inscription.php"> S'inscrire </a></p>	
+		<p><a href="inscription.php"> S'inscrire </a></p>
+        <p><a href="../../index.php"> Retour à la page d'accueil</a> </p>
 
 	</div>
 

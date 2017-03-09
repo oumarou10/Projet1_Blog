@@ -4,7 +4,7 @@ $token = uniqid(rand(), true);
 $_SESSION['token'] = $token;
 $_SESSION['token_time'] = time();
 
-require "../../connexion_bdd.php";
+require "../../Modele/connexion.php";
 ?>
 
 <!DOCTYPE html>

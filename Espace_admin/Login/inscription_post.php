@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require "../../connexion_bdd.php";
+require "../../Modele/connexion.php";
 
 
 $pseudo = htmlspecialchars($_POST['pseudo']);

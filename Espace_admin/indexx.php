@@ -1,7 +1,7 @@
 <?php
+session_start();
 
-require "../connexion_bdd.php";
-
+require "../Modele/connexion.php";
 $pass_hache = htmlspecialchars(sha1($_POST['pass']));
 $pseudo = htmlspecialchars($_POST['pseudo']);
 
@@ -22,7 +22,6 @@ if (isset($_POST['valider']))
 	
 	else
 	{
-	    session_start();
 	    $_SESSION['id'] = $resultat['id'];
 	    $_SESSION['pseudo'] = $pseudo;
 	    

@@ -1,6 +1,6 @@
 <?php
 
-require "../connexion_bdd.php";
+require "../Modele/connexion.php";
 
 // je verifier que tous les champs soient remplis puis je mets les POST dans des variables
 	

@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require "../connexion_bdd.php";
+require "../Modele/connexion.php";
 
 $titre = htmlspecialchars($_POST['titre']);
 $auteur = htmlspecialchars($_POST['auteur']);
